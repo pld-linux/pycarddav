@@ -23,8 +23,8 @@ support for mutt's query_command but also works very well solo.
 pyCardDAV consists of pycardsyncer, a program for syncing your CardDAV
 resource into a local database and of pc_query, a program for querying
 the local database. pyCardDAV is some ugly python code (actually, it's
-not that bad anymore…) that holds together vobject, lxml, requests and
-pysqlite .
+not that bad anymore...) that holds together vobject, lxml, requests
+and pysqlite .
 
 Features/limitations:
 - only use one address book resource at the moment
