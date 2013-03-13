@@ -7,13 +7,13 @@ Group:		Applications/Mail
 Source0:	http://lostpackets.de/pycarddav/downloads/%{name}-%{version}.tar.gz
 # Source0-md5:	29a900555a0cb737af50c94f9ed050e3
 URL:		http://lostpackets.de/pycarddav/
-BuildRequires:	python-devel
 BuildRequires:	rpm-pythonprov
 BuildRequires:	rpmbuild(macros) >= 1.219
 Requires:	python-modules
 Requires:	python-requests
 Requires:	python-urwid
 Requires:	python-vobject
+BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
