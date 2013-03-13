@@ -9,6 +9,9 @@ Source0:	http://lostpackets.de/pycarddav/downloads/%{name}-%{version}.tar.gz
 URL:		http://lostpackets.de/pycarddav/
 BuildRequires:	python-devel
 %pyrequires_eq	python-modules
+Requires:	python-requests
+Requires:	python-urwid
+Requires:	python-vobject
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
